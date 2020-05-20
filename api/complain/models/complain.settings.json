@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complain",
+  "info": {
+    "name": "complain"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "isseue_title": {
+      "type": "string",
+      "required": true
+    },
+    "issue_type": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "richtext",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
