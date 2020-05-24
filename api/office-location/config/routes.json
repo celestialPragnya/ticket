@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/employees",
-      "handler": "employee.find",
+      "path": "/office-locations",
+      "handler": "office-location.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/employees/count",
-      "handler": "employee.count",
+      "path": "/office-locations/count",
+      "handler": "office-location.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/employees/:id",
-      "handler": "employee.findOne",
+      "path": "/office-locations/:id",
+      "handler": "office-location.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/employees",
-      "handler": "employee.create",
+      "path": "/office-locations",
+      "handler": "office-location.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/employees/:id",
-      "handler": "employee.update",
+      "path": "/office-locations/:id",
+      "handler": "office-location.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/employees/:id",
-      "handler": "employee.delete",
+      "path": "/office-locations/:id",
+      "handler": "office-location.delete",
       "config": {
         "policies": []
       }

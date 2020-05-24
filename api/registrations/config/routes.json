@@ -50,8 +50,14 @@
     },
     {
       "method": "POST",
-      "path": "/hello",
-      "handler": "testRegistration.index"    
+      "path": "/signIn",
+      "handler": "signIn.find"    
+    },
+    {
+      "method": "POST",
+      "path": "/updateProfile/:id",
+      "handler": "updateProfile.update"    
     }
+   
   ]
 }

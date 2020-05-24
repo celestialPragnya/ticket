@@ -5,9 +5,8 @@ module.exports = {
      *
      * @return {Promise}
      */
-  
-    async create(data) {
-        const entry = await strapi.query('registrations').create(data);
+    async update(params, data) {
+        const entry = await strapi.query('registrations').update(params, data);
         return entry;
-    },
+      },
   };

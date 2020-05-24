@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "status",
+  "info": {
+    "name": "status"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "status_type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

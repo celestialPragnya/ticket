@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `complain` model.
+ * Lifecycle callbacks for the `issue-type` model.
  */
 
 module.exports = {

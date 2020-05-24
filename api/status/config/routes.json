@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/complains",
-      "handler": "complain.find",
+      "path": "/statuses",
+      "handler": "status.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/complains/count",
-      "handler": "complain.count",
+      "path": "/statuses/count",
+      "handler": "status.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/complains/:id",
-      "handler": "complain.findOne",
+      "path": "/statuses/:id",
+      "handler": "status.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/complains",
-      "handler": "complain.create",
+      "path": "/statuses",
+      "handler": "status.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/complains/:id",
-      "handler": "complain.update",
+      "path": "/statuses/:id",
+      "handler": "status.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/complains/:id",
-      "handler": "complain.delete",
+      "path": "/statuses/:id",
+      "handler": "status.delete",
       "config": {
         "policies": []
       }

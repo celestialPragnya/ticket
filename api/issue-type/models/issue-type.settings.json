@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "issue_type",
+  "info": {
+    "name": "issue_type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "issue_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

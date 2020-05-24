@@ -16,7 +16,8 @@
     },
     "password": {
       "type": "password",
-      "required": true
+      "required": true,
+      "private": true
     },
     "phone_number": {
       "required": true,

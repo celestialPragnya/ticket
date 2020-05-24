@@ -1,19 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "complain",
+  "collectionName": "ticket_detail",
   "info": {
-    "name": "complain"
+    "name": "ticket_detail"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "isseue_title": {
-      "type": "string",
-      "required": true
-    },
-    "issue_type": {
+    "ticket_id": {
       "type": "string",
       "required": true
     },
@@ -21,12 +17,8 @@
       "type": "richtext",
       "required": true
     },
-    "location": {
-      "type": "string",
-      "required": true
-    },
-    "status": {
-      "type": "string",
+    "remark": {
+      "type": "richtext",
       "required": true
     }
   }
