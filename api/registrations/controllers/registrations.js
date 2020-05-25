@@ -20,7 +20,7 @@ module.exports = {
           ctx.response.badRequest('Please enter celestial Email');
       }
       return sanitizeEntity(entity, { model: strapi.models.registrations });
-    }catch{
+    }catch(err){
       ctx.response.badRequest('Please enter celestial Email');
     }
     

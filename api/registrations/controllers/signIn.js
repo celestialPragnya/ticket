@@ -12,7 +12,7 @@ module.exports = {
       }else{
         ctx.response.badRequest('Please Check email And Password');
       }
-    }catch{
+    }catch (error){
       ctx.response.badRequest('Please Check email And Password');
     }
   }

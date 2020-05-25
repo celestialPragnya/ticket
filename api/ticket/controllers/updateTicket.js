@@ -13,7 +13,7 @@ module.exports = {
             }
             return sanitizeEntity(entity, { model: strapi.models.ticket });
             //return 'Hello World!';
-        }catch{
+        }catch (err){
             ctx.response.badRequest('Please Check email And Password');
         }
         

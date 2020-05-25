@@ -10,7 +10,7 @@ module.exports = {
       }else{
         ctx.response.badRequest('Please Check email');
       }
-    }catch{
+    }catch(err){
       ctx.response.badRequest('Please Check email');
     }
   }
